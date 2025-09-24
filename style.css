@@ -54,7 +54,7 @@ section::before {
 /* Styling for individual spans */
 section span {
     position: relative;
-    display: block;
+    display: block; 
     width: calc(6.25vw - 2px);
     height: calc(6.25vw - 2px);
     background: #181818;
