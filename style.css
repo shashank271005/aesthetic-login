@@ -1,7 +1,7 @@
-/* Font import and global reset */
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* Global reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
     font-family: 'Quicksand', sans-serif;
 } 
  
-/* Body styling */
+   
 body {  
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
     background: #000;
 } 
 
-/* Section styles */ 
+
 section {
     position: absolute;
     width: 100vw;
@@ -31,7 +31,7 @@ section {
     overflow: hidden;
 }
 
-/* Animated gradient effect */
+
 section::before {
     content: ''; 
     position: absolute;
@@ -41,7 +41,7 @@ section::before {
     animation: animate 5s linear infinite;
 }
 
-/* Animation keyframes */
+
 @keyframes animate {
     0% {
         transform: translateY(-100%);
@@ -51,7 +51,6 @@ section::before {
     }
 }
 
-/* Styling for individual spans */
 section span {
     position: relative;
     display: block; 
